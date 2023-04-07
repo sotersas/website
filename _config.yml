@@ -11,7 +11,11 @@ city: Bucaramanga
 state: Santander
 zip_code: 680001
 country: Colombia
+
+# telephone
 phone: (310) 555-5555
+whatsapp: 584269701138
+whatsapp_display: (310) 341-4311
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,13 +26,13 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: 
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
+  Google-Plus: 
+  Instagram: https://twitter.com/andrewbanchich
   LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
   Twitter: https://twitter.com/andrewbanchich
-  Facebook:
+  Facebook: https://twitter.com/andrewbanchich
   Slack:
 
 # build settings

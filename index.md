@@ -2,6 +2,7 @@
 layout: home
 title: Inicio
 landing-title: 'Hola, mi nombre es Victoria'
+sub-title: 'Contactanos'
 description: null
 image: null
 author: null

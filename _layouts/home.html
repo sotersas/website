@@ -20,9 +20,11 @@
             </header>
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
+                {% if page.sub-title %}
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Comienza</a></li>
+                    <li><a href="#two_title" class="button next scrolly"> {{ page.sub-title }} </a></li>
                 </ul>
+                {% endif %}
             </div>
         </div>
     </section>
@@ -36,13 +38,17 @@
         <!-- Two -->
         <section id="two">
             <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
+                {% if page.sub-title %}
+                <header id="two_title" class="major">
+                    <h2>{{ page.sub-title }}</h2>
                 </header>
+                {% endif %}
                 <p>{{ content }}</p>
+                <!--
                 <ul class="actions">
                     <li><a href="landing.html" class="button next">Comienza</a></li>
                 </ul>
+                -->
             </div>
         </section>
 
