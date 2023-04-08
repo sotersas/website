@@ -48,8 +48,14 @@
 					<h3>Dirección</h3>
 					<span>
 					{% if site.street_address %}
-					    {{ site.street_address }}<br />
+					    {{ site.street_address }}
 					{% endif %}
+					
+					{% if site.street_address_2 %}
+						</br>
+					    {{ site.street_address_2 }}
+					{% endif %}
+					<!-- <br/>
 					{% if site.city %}
 					    {{ site.city }},
 					{% endif %}
@@ -57,10 +63,11 @@
 					    {{ site.state }} 
 					{% endif %}
 					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
+					    {{ site.zip_code }}
 					{% endif %}
+					-->
 					{% if site.country %}
-					    {{ site.country }}
+					    <br/><i>{{ site.country }}</i>
 					{% endif %}
 					</span>
 				</div>

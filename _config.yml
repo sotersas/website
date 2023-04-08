@@ -1,21 +1,27 @@
 # site settings
 title: La pagina de Victoria
 subtitle: Aqui el futuro
-email: youremailaddress@gmail.com
 description: Pagina de prueba en desarrollo.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Victoria
-street_address: Algun lugar
+
+# address
 city: Bucaramanga
 state: Santander
-zip_code: 680001
+#zip_code: 680001
 country: Colombia
 
+street_address: Puente Aranda, Bogotá, Cundinamarca
+street_address_2: San Francisco, Bucaramanga, Santander
+
+#San Francisco/Bucaramanga y 
+
 # telephone
-phone: (310) 555-5555
-whatsapp: 584269701138
-whatsapp_display: (310) 341-4311
+phone: (315) 511-3610
+whatsapp: 573165002431
+whatsapp_display: (316) 500-2431
+email: infosotersas@gmail.com
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -29,7 +35,7 @@ socials:
   GitHub: 
   GitLab:
   Google-Plus: 
-  Instagram: https://twitter.com/andrewbanchich
+  Instagram: https://www.instagram.com/sotersas/
   LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
   Twitter: https://twitter.com/andrewbanchich
   Facebook: https://twitter.com/andrewbanchich
