@@ -1,6 +1,7 @@
 <!-- Contact -->
 <section id="contact">
 	<div class="inner">
+		<!-- Contact form -->
 		<section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
@@ -21,6 +22,8 @@
 				</ul>
 			</form>
 		</section>
+		
+		<!-- Contact information -->
 		<section class="split">
 			<section>
 				<div class="contact-method">
@@ -29,49 +32,24 @@
 					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
-			<section>
+			
+			<!-- Contacts -->
+			{% for person in site.contacts %}
+			<section>				
 				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Telefono</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone_display }}</a>	
+					<span class="icon alt fa-home"></span>
+					<h3>Dirección #{{ forloop.index }}</h3>
+					<span>{{ person.street_address }}</span>
 				</div>
 				
 				<div class="contact-method">
 					<span class="icon alt fa-whatsapp"></span>
 					<h3>Whatsapp</h3>
-					<a href="https://wa.me/{{site.whatsapp}}">{{ site.whatsapp_display }}</a>	
+					<a href="https://wa.me/{{person.whatsapp}}">{{ person.whatsapp_display }}</a>	
 				</div>
 			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Dirección</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}
-					{% endif %}
-					
-					{% if site.street_address_2 %}
-						</br>
-					    {{ site.street_address_2 }}
-					{% endif %}
-					<!-- <br/>
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}
-					{% endif %}
-					-->
-					{% if site.country %}
-					    <br/><i>{{ site.country }}</i>
-					{% endif %}
-					</span>
-				</div>
-			</section>
+			{% endfor %}
+			<!-- -->
 		</section>
 	</div>
 </section>
