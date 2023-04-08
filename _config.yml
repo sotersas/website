@@ -18,9 +18,11 @@ street_address_2: San Francisco, Bucaramanga, Santander
 #San Francisco/Bucaramanga y 
 
 # telephone
-phone: (315) 511-3610
+phone: "(315) 511-3610"
+phone_display: "+57 (315) 511-3610"
+
 whatsapp: 573165002431
-whatsapp_display: (316) 500-2431
+whatsapp_display: "+57 (316) 500-2431"
 email: infosotersas@gmail.com
 
 # homepage tiles
