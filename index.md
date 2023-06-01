@@ -1,12 +1,14 @@
 ---
 layout: home
 title: Inicio
-landing-title: 'Hola, mi nombre es Victoria'
-sub-title: 'Contáctanos'
+landing-title: 'SOTER SAS'
+sub-title: '¡Contactanos!'
 description: null
 image: null
 author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+En nuestra empresa, contamos con una amplia experiencia en el campo de la SST y el Ambiente, trabajando con organizaciones de diversos sectores para garantizar el cumplimiento de las regulaciones ambientales y promover una cultura de prevención de riesgos laborales. No dude en ponerse en contacto con nosotros para obtener más información sobre nuestros servicios y cómo podemos ayudarlo a alcanzar sus objetivos en materia de Seguridad, Salud y Ambiente.
+
+Te ofrecemos una revisión __gratuita__ que cumple con los estándares mínimos establecidos en la __resolución 0312/2019__.
