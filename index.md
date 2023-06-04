@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Inicio
-landing-title: 'SOTER SAS'
+landing-title: 'Trabaja seguro, vive saludable'
 sub-title: '¡Contactanos!'
 description: null
 image: null

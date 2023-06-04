@@ -14,12 +14,15 @@
 
     <!-- Banner -->
     <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
+        <div class="inner">        
+            <header class="major" style="display: flex; align-items: center;">
+                <div style="width: 100%;">
+                	<img src="assets/images/logo/logo-white.png" class="mainLogo">
+                	<h2 style="font-size: 40px; display: inline;">{{ page.landing-title }}</h2> 
+            	</div>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <p style="text-transform: none; font-size: 16px">{{ site.description }}</p> <!-- Text of site title -->
                 {% if page.sub-title %}
                 <ul class="actions">
                     <li><a href="#two_title" class="button next scrolly"> {{ page.sub-title }} </a></li>
