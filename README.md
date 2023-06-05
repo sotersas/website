@@ -2,7 +2,7 @@
 Simple website that displays contact information and provides a contact form.
 
 ## Dependencies
-This site requires the following packages/frameworks:
+This site requires the following packages and frameworks:
 
 - [Forty Theme](https://github.com/andrewbanchich/forty-jekyll-theme) by Andrew Banchich. 
 - [Jekyll](https://jekyllrb.com/)
