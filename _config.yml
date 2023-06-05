@@ -1,5 +1,5 @@
 # site settings
-title: SOTER SAS
+title: SOTER
 subtitle: "Seguridad laboral"
 description: "Bienvenidos a nuestra empresa especializada en Seguridad y Salud en el Trabajo (SST) y Ambiente. Somos un equipo de profesionales comprometidos con la protección del medio ambiente y la promoción de entornos laborales seguros y sostenibles."
 baseurl: "/home" # the subpath of your site, e.g. /blog
