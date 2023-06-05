@@ -22,6 +22,9 @@ footer_text: "Contamos con una amplia experiencia trabajando con organizaciones 
 
 footer_text_bold: "una revisión gratuita que cumple con los estándares mínimos establecidos en la resolución 0312/2019."
 
+# Form endpoint from Formspree
+contact_action: https://formspree.io/f/mpzeglqb
+
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
