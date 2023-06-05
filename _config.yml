@@ -18,6 +18,10 @@ contacts:
   whatsapp_display: "+57 (316) 500-2431"
   whatsapp: 573165002431
 
+footer_text: "Contamos con una amplia experiencia trabajando con organizaciones de diversos sectores para garantizar el cumplimiento de regulaciones ambientales y promover una cultura de prevención de riesgos laborales. No dude en ponerse en contacto con nosotros para obtener"
+
+footer_text_bold: "una revisión gratuita que cumple con los estándares mínimos establecidos en la resolución 0312/2019."
+
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
@@ -26,14 +30,17 @@ tiles-count: 6
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
-socials:
-  GitHub: 
-  GitLab:
-  Google-Plus: 
-  Instagram: https://www.instagram.com/sotersas/
-  LinkedIn: 
-  Twitter: 
-  Facebook: 
+instagram_display: "@sotersas"
+instagram: https://www.instagram.com/sotersas/
+
+#socials:
+#  gitHub: 
+#  gitLab:
+#  google-Plus: 
+#  instagram: https://www.instagram.com/sotersas/
+#  linkedIn: 
+#  twitter: 
+#  facebook: 
 
 
 # build settings

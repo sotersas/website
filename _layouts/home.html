@@ -14,15 +14,20 @@
 
     <!-- Banner -->
     <section id="banner" class="major">
-        <div class="inner">        
-            <header class="major" style="display: flex; align-items: center;">
-                <div style="width: 100%;">
-                	<img src="assets/images/logo/logo-white.png" class="mainLogo">
-                	<h2 style="font-size: 40px; display: inline;">{{ page.landing-title }}</h2> 
+        <div class="inner" style="text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);">        
+            <header class="major" style="margin-bottom: 10px !important;">
+                <div class="pageTitle">
+                	<img src="assets/images/logo/logo-color.png" class="mainLogo">
             	</div>
+            	<h3 class="landingTitle">{{ page.landing-title }}</h3>
             </header>
+            
+            <!-- Text of site title -->
             <div class="content">
-                <p style="text-transform: none; font-size: 16px">{{ site.description }}</p> <!-- Text of site title -->
+                <p style="text-transform: none; font-size: 16px;">
+                	{{ site.description }}
+                </p> 
+                
                 {% if page.sub-title %}
                 <ul class="actions">
                     <li><a href="#two_title" class="button next scrolly"> {{ page.sub-title }} </a></li>
@@ -38,7 +43,7 @@
         <!-- One -->
         {% include tiles.html %}
 
-        <!-- Two -->
+        <!-- Two
         <section id="two">
             <div class="inner">
                 {% if page.sub-title %}
@@ -47,13 +52,9 @@
                 </header>
                 {% endif %}
                 <p>{{ content }}</p>
-                <!--
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Comienza</a></li>
-                </ul>
-                -->
             </div>
         </section>
+		-->
 
     </div>
 

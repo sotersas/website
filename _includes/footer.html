@@ -2,34 +2,55 @@
 <section id="contact">
 	<div class="inner">
 		<!-- Contact form -->
-		<section>
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
-				<div class="field half first">
-					<label for="name">Nombre</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Mensaje</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Enviar Mensaje" class="special" /></li>
-					<li><input type="reset" value="Eliminar" /></li>
-				</ul>
-			</form>
+		<section style="display: flex; align-items: center; justify-content: center; width: 100%">
+			<div style="width: 100%">
+			 	
+			 	<!-- info -->
+			 	<header id="two_title" class="major">
+					<h2>¡Contactanos!</h2>
+				</header>
+		
+				<p>{{ site.footer_text }} <strong>{{ site.footer_text_bold }}</strong></p>
+				
+				<!-- email form -->
+				<form action="https://formspree.io/{{ site.email }}" method="POST">
+					<div class="field half first">
+						<label for="name">Nombre</label>
+						<input type="text" name="name" id="name" />
+					</div>
+					<div class="field half">
+						<label for="email">Email</label>
+						<input type="text" name="_replyto" id="email" />
+					</div>
+					<div class="field">
+						<label for="message">Mensaje</label>
+						<textarea name="message" id="message" rows="6"></textarea>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Enviar Mensaje" class="special" /></li>
+						<li><input type="reset" value="Eliminar" /></li>
+					</ul>
+				</form>
+			</div>
 		</section>
 		
 		<!-- Contact information -->
 		<section class="split">
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+					<a href="mailto:{{ site.email }}">
+						<span class="icon alt fa-envelope"></span>
+						<h3>Email</h3>
+						<span>{{ site.email }}</span>
+					</a>
+				</div>
+				
+				<div class="contact-method">
+					<a href="{{ site.instagram }}">
+						<span class="icon alt fa-instagram"></span>
+						<h3>Instagram</h3>
+						<span>{{ site.instagram_display }}</span>
+					</a>
 				</div>
 			</section>
 			
@@ -43,9 +64,11 @@
 				</div>
 				
 				<div class="contact-method">
-					<span class="icon alt fa-whatsapp"></span>
-					<h3>Whatsapp</h3>
-					<a href="https://wa.me/{{person.whatsapp}}">{{ person.whatsapp_display }}</a>	
+					<a href="https://wa.me/{{person.whatsapp}}">
+						<span class="icon alt fa-whatsapp"></span>
+						<h3>Whatsapp</h3>
+						<span>{{ person.whatsapp_display }}</span>	
+					</a>
 				</div>
 			</section>
 			{% endfor %}
@@ -57,7 +80,12 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div style="display: flex; justify-content: center;">
-			<img src="assets/images/logo/logo-color.png" class="footerLogo">
+			<div style="display: flex; flex-direction: column;">
+				<img src="{{ site.baseurl }}/assets/images/logo/logo-white.png" class="footerLogo">
+				<span class="copyright" style="text-align: center; margin-bottom: 20px">
+					&copy; {{ site.title }} | {{ site.subtitle }}
+				</span>
+			</div>
 		</div>
 	</footer>
 

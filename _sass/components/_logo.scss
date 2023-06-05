@@ -1,11 +1,31 @@
 .mainLogo {
-	width: 400px; 
-	padding-right: 10px; 
-	transform: translateY(15px);
+	width: 100%;
+	max-width: 450px;  
+	transform: translateY(0px);
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 .footerLogo {
 	margin-top: 15px;
 	margin-bottom: 15px;
-	width: 400px;
+	width: 100%;
+	max-width: 350px; 
+}
+
+.landingTitle {
+	font-size: 40px; 
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+@media (max-width: 1000px) {
+	.landingTitle {
+		//display: block;
+	}
+}
+
+.pageTitle {
+	text-align: center;
 }

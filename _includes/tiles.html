@@ -9,8 +9,13 @@
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
     </span>
-    <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+    
+    <header class="major" style="text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);">
+      <h3>
+      	<a href="{{ tile.url | relative_url }}" class="link">
+      		{{ tile.title }}
+      	</a>
+      </h3> 
       <p>{{ tile.description }}</p>
     </header>
   </article>
